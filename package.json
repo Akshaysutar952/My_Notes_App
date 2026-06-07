@@ -1,25 +1,11 @@
 {
   "name": "notes-frontend",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.5.0",
-    "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "build": "cd frontend/notes-frontend && npm install && npm run build",
-    "start": "node server.js",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": ["react-app"]
-  },
-  "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
-  },
-  "proxy": "http://localhost:5000"
+    "cra-template": "1.3.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-scripts": "^0.0.0"
+  }
 }
